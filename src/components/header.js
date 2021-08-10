@@ -45,7 +45,7 @@ function Header() {
         >
           {[
             {
-              route: `#`,
+              route: `https://takary-blog.netlify.app/`,
               title: `Blog`,
             },
             {

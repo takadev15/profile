@@ -1,12 +1,15 @@
 import React from "react";
 
+import rwpintar from "../images/RwPintar.png"
+import siakad from "../images/siakad.png"
+
 
 function Projects(){
         return(
         <div className="flex-col bg-gray-light p-10">
           <div className="flex my-14 pr-20">
             <div className="mx-5">
-              <img className="w-full transition duration-500 transform hover:translate-x-2 hover:translate-y-2" src="../images/RwPintar.png"/>
+              <img className="w-full transition duration-500 transform hover:translate-x-2 hover:translate-y-2" src={rwpintar}/>
             </div>
             <div className="flex-col ml-4">
               <p className="text-white text-lg">RwPintar</p>
@@ -23,7 +26,7 @@ function Projects(){
           </div>
           <div className="flex my-14 pr-20">
             <div className="w-3/4 mx-5">
-              <img className="w-full h-full transition duration-500 transform hover:translate-x-2 hover:translate-y-2" src="../images/siakad.png"/>
+              <img className="w-full h-full transition duration-500 transform hover:translate-x-2 hover:translate-y-2" src={siakad}/>
             </div>
             <div className="flex-col ml-4">
               <p className="text-white text-lg">Siakad Multiplatform</p>
