@@ -15,7 +15,7 @@ function Profile(){
           </div>
           <div className="flex-col w-1/2">
             <p className="font-bold text-xl text-white">About me</p>
-            <p className="text-lg text-white"> Hello There! My name is Daffa Haryadi, you may call me taka i know it was ridiculous, but well it’s my online presence name. I’m an aspiring Backend Developer who’s trying to become system architect. I also make some blog where i talks about Techology, Linux, Neovim, Anime, and V-tubers ( i’m a simp btw :^) ). Well i thinks that’s all about me, feel free to visit my social media or blogs</p>
+            <p className="text-lg text-white"> Hello There! My name is Daffa Haryadi A.K.A Taka, Im 20 y/o guy from indonesia who is trying to be A Software Engineer. I like Open source Project and trying my best to contribute to many of them. I also like Linux, Neovim, and watch Vtubers along the way, nice to meet you :^) .</p>
             <div className="flex space-x-3 mt-4">
               <a href="#" className="bg-white h-8 w-16 py-0.5 mt-2 rounded-xl hover:bg-gray-lightest" title="CV">
                 <p className="text-center text-gray-dark"> cv </p>
