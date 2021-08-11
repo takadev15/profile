@@ -5,13 +5,13 @@ import twitterCircle from "@iconify-icons/jam/twitter-circle"
 import linkedinCircle from "@iconify-icons/jam/linkedin-circle"
 import githubCircle from "@iconify-icons/jam/github-circle"
 
-import profile from "../images/profile.jpg"
+import profile from "../images/me.png"
 
 function Profile(){
         return(
         <div className="flex mt-32">
           <div className="mr-16">
-            <img className="rounded-full transition duration-500 ease-in-out scale-100 transform hover:scale-110 object-cover h-40 w-40" src={profile}/>
+            <img className="rounded-full transition duration-500 ease-in-out scale-100 transform hover:scale-110 object-cover h-44 w-44" src={profile}/>
           </div>
           <div className="flex-col w-1/2">
             <p className="font-bold text-xl text-white">About me</p>

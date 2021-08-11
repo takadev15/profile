@@ -4,7 +4,11 @@ import { Icon } from "@iconify/react"
 
 function Interest(){
         return(
-        <div className="flex mt-32 justify-between">
+        <div className="mt-64">
+          <div className="my-10 text-center">
+            <p className="text-white text-2xl font-bold"> My Interest </p>
+          </div>
+        <div className="flex justify-between">
           <div className="flex-col bg-white h-96 rounded-2xl border-black p-1 border-opacity-5">
             <div className="mb-4">
               <p className="text-gray-dark text-center text-xl font-bold"> Tools </p>
@@ -64,15 +68,8 @@ function Interest(){
               <p className="text-white text-lg">C++</p>
               <Icon icon="bx:bxl-c-plus-plus" style={{color: 'white' , fontSize: '32px'}}/>
             </div>
-            <div className="flex bg-gray-dark w-56 h-14 py-3 px-2 my-2 justify-between">
-              <p className="text-white text-lg">Pytorch</p>
-              <Icon icon="cib:pytorch" style={{color: 'white' , fontSize: '32px'}}/>
-            </div>
-            <div className="flex bg-gray-dark w-56 h-14 py-3 px-2 my-2 justify-between">
-              <p className="text-white text-lg">TensorFlow</p>
-              <Icon icon="cib:tensorflow" style={{color: 'white' , fontSize: '32px'}}/>
-            </div>
           </div>
+        </div>
         </div>
         );
     }

@@ -17,18 +17,18 @@ function ProjectsPage() {
         </div>
         <div className="flex-col bg-gray-light p-10">
         {projects.map((p, i)=> { return (  
-          <div className="flex my-5 pr-20" key={i}>
-            <div className="mx-5 h-96 w-96">
-              <img src={p.image}/>
+          <div className="flex my-14 pr-20" key={i}>
+            <div className="w-2/5 mx-5">
+              <img className="transition duration-500 transform hover:translate-x-2 hover:translate-y-2" src={p.image}/>
             </div>
-            <div className="flex-col ml-4">
+            <div className="flex-col w-3/5 ml-4">
               <p className="text-white text-lg">{p.title}</p>
               <p className="text-white mt-4 mr-64 text-base">{p.description}</p>
               <div className="flex space-x-6 mt-4">
-                <a href={p.source} className="bg-white h-8 w-24 rounded-full py-2">
+                <a href={p.source} className="bg-white h-8 w-24 rounded-full py-1.5 hover:bg-gray-lightest">
                   <p className="text-xs font-bold text-center">Source Code</p>
                 </a>
-                <a href={p.visit} className="bg-white h-8 w-24 rounded-full py-2">
+                <a href={p.visit} className="bg-white h-8 w-24 rounded-full py-1.5 hover:bg-gray-lightest">
                   <p className="text-xs font-bold text-center">Live</p>
                 </a>
               </div>
