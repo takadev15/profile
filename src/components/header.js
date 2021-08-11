@@ -45,7 +45,7 @@ function Header() {
         >
           {[
             {
-              route: `https://takary-blog.netlify.app/`,
+              route: `https://www.blog.takary.my.id`,
               title: `Blog`,
             },
             {
