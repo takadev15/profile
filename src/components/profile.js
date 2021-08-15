@@ -11,7 +11,7 @@ import profile from "../images/me.png"
 function Profile(){
         return(
         <div className="flex flex-col mt-20 sm:flex-row md:mt-32">
-          <div className="mx-20 sm:mr-16">
+          <div className="mx-16 sm:mr-16">
             <img className="rounded-full transition duration-500 ease-in-out scale-100 transform hover:scale-110 object-cover h-44 w-44" src={profile}/>
           </div>
           <div className="flex-col w-full text-center mt-10 sm:mt-0 sm:text-left sm:w-1/2">
