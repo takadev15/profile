@@ -13,12 +13,12 @@ function IndexPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`portofolio`, `takary`, `software engineer`, `developer`]}
         title="Home"
       />
-      <div className="w-2/3 mx-auto">
+      <div className="w-5/6 sm:w-2/3 mx-auto">
         <Profile />
-        <div className="text-center mt-32 mb-10">
+        <div className="text-center mt-48 sm:mt-72 mb-10">
           <p className="font-bold text-3xl text-white">Projects</p>
         </div>
         <Projects />

@@ -41,7 +41,7 @@ function Header() {
         <nav
           className={`${
             isExpanded ? `block` : `hidden`
-          } md:block md:items-center w-full md:w-auto`}
+          } md:block md:items-center w-full h-full md:w-auto md:h-auto`}
         >
           {[
             {

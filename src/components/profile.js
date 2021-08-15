@@ -7,16 +7,17 @@ import githubCircle from "@iconify-icons/jam/github-circle"
 
 import profile from "../images/me.png"
 
+
 function Profile(){
         return(
-        <div className="flex mt-32">
-          <div className="mr-16">
+        <div className="flex flex-col mt-20 sm:flex-row md:mt-32">
+          <div className="mx-24 sm:mr-16">
             <img className="rounded-full transition duration-500 ease-in-out scale-100 transform hover:scale-110 object-cover h-44 w-44" src={profile}/>
           </div>
-          <div className="flex-col w-1/2">
+          <div className="flex-col w-full text-center mt-10 sm:mt-0 sm:text-left sm:w-1/2">
             <p className="font-bold text-xl text-white">About me</p>
             <p className="text-lg text-white"> Hello There! My name is Daffa Haryadi A.K.A Taka, Im 20 y/o guy from indonesia who is trying to be A Software Engineer. I like Open source Project and trying my best to contribute to many of them. I also like Linux, Neovim, and watch Vtubers along the way, nice to meet you :^) .</p>
-            <div className="flex space-x-3 mt-4">
+            <div className="flex space-x-2 mt-4 mx-16 sm:space-x-3 sm:mx-0">
               <a href="#" className="bg-white h-8 w-16 py-0.5 mt-2 rounded-xl hover:bg-gray-lightest" title="CV">
                 <p className="text-center text-gray-dark"> cv </p>
               </a>
@@ -30,6 +31,6 @@ function Profile(){
           </div>
         </div>
         );
-    }
+      }
 
 export default Profile
