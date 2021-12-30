@@ -54,7 +54,7 @@ function Header() {
             },
             {
               route: `#`,
-              title: `Docs`,
+              title: `Interests`,
             },
           ].map((link) => (
             <Link
@@ -72,3 +72,4 @@ function Header() {
 }
 
 export default Header;
+
