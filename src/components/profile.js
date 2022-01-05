@@ -18,7 +18,7 @@ function Profile(){
             <p className="font-bold text-xl text-white">About me</p>
             <p className="text-lg text-white"> Hello There! My name is Daffa Haryadi A.K.A Taka, Im 20 y/o guy from indonesia who is trying to be A Software Engineer. I like Open source Project and trying my best to contribute to many of them. I also like Linux, Neovim, and watch Vtubers along the way, nice to meet you :^) .</p>
             <div className="flex space-x-2 mt-4 mx-16 sm:space-x-3 sm:mx-0">
-              <a href="#" className="bg-white h-8 w-16 py-0.5 mt-2 rounded-xl hover:bg-gray-lightest" title="CV">
+              <a href="https://docs.google.com/document/d/1Y4vVEaIrL6TDpj88Pr8R56DoCtVyeZ2q2Fdcgid_jEA/edit?usp=sharing" className="bg-white h-8 w-16 py-0.5 mt-2 rounded-xl hover:bg-gray-lightest" title="CV">
                 <p className="text-center text-gray-dark"> cv </p>
               </a>
               <a href="https://github.com/Takachii15" target="_blank" rel="noopener noreferrer" title="Github">
