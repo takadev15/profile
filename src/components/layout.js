@@ -25,11 +25,11 @@ function Layout({ children }) {
           <div className="flex my-3 justify-center space-x-3 mt-8">
               <a href="https://twitter.com/takachiii_" target="_blank" rel="noopener noreferrer" title="Twitter">
             <Icon icon={twitterCircle} style={{fontSize: '48px' , color: '#fff',}} /></a>
-              <a href="https://www.linkedin.com/in/daffa-haryadi-80068a170/" target="_blank" rel="noopener noreferrer" title="linkedin">
+              <a href="https://www.linkedin.com/in/daffahry/" target="_blank" rel="noopener noreferrer" title="linkedin">
             <Icon icon={linkedinCircle} style={{fontSize: '48px' , color: 'white'}} /></a>
               <a href="https://gitlab.com/TAKA15" target="_blank" rel="noopener noreferrer" title="Gitlab">
             <Icon icon={gitlabCircle} style={{fontSize: '48px' , color: 'white'}} /></a>
-              <a href="https://github.com/Takachii15" target="_blank" rel="noopener noreferrer" title="Github">
+              <a href="https://github.com/takadev15" target="_blank" rel="noopener noreferrer" title="Github">
             <Icon icon={githubCircle} style={{fontSize: '48px', color: '#fff' }} /></a>
           </div>
           <div className="text-center mt-10 mb-8">
