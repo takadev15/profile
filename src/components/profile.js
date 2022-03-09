@@ -21,9 +21,9 @@ function Profile(){
               <a href="https://docs.google.com/document/d/1Y4vVEaIrL6TDpj88Pr8R56DoCtVyeZ2q2Fdcgid_jEA/edit?usp=sharing" className="bg-white h-8 w-16 py-0.5 mt-2 rounded-xl hover:bg-gray-lightest" title="CV">
                 <p className="text-center text-gray-dark"> cv </p>
               </a>
-              <a href="https://github.com/Takachii15" target="_blank" rel="noopener noreferrer" title="Github">
+              <a href="https://github.com/takadev15" target="_blank" rel="noopener noreferrer" title="Github">
               <Icon icon={githubCircle} style={{fontSize: '48px', color: '#fff' }} /></a>
-              <a href="https://www.linkedin.com/in/daffa-haryadi-80068a170/" target="_blank" rel="noopener noreferrer" title="Linkedin">
+              <a href="https://www.linkedin.com/in/daffahry/" target="_blank" rel="noopener noreferrer" title="Linkedin">
               <Icon icon={linkedinCircle} style={{fontSize: '48px', color: '#fff'}} /></a>
               <a href="https://twitter.com/takachiii_" target="_blank" rel="noopener noreferrer" title="Twitter">
               <Icon icon={twitterCircle} style={{fontSize: '48px', color: '#fff'}} /></a>
